@@ -1,7 +1,7 @@
 Описание приложения
 Запуск проекта.
 
- -Скопировать проект с помощью git clone https://github.com/Pavel7334/Chat2022```
+- Скопировать проект с помощью git clone ```https://github.com/Pavel7334/Chat2022```
 - ```docker-compose up --build``` собрать приложение и сделать его первоначальный запуск 
 - ```docker-compose down -v``` – остановить работу приложения
 - ```docker-compose run web python manage.py migrate``` – сделать необходимые миграции 
