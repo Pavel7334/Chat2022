@@ -1,10 +1,11 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView
 
 from .models import Message
 
 
-def index(request):
-    return render(request, 'chat/index.html')
+class IndexView(TemplateView):
+    template_name = 'chat/index.html'
 
 
 def room(request, room_name):
