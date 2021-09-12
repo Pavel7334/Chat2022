@@ -46,7 +46,7 @@
 
                     <div class="field">
                         <div class="control">
-                            <a class="button is-info" id="chat-message-submit">Отправить</a>
+                            <button class="button is-info" id="chat-message-submit">Отправить</button>
                         </div>
                     </div>
 
@@ -88,7 +88,7 @@
             document.querySelector('#chat-messages').innerHTML += ('<b>' + data.username + '</b>: ' + data.message +
                 '<small class="has-text-grey-light"><span style="float:right;margin-right: 10px;">' + data.date + '</span></small>' + '<br>');
         } else {
-            alert('The message is empty!');
+            alert('Сообщение не должно быть пустым');
         }
 
         scrollToBottom();
